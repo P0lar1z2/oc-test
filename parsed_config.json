@@ -1,0 +1,414 @@
+{
+    "undergroundfluid": {
+        "overworld": {
+            "S:Dimension": 0,
+            "gas_natural_gas": {
+                "I:Chance": 20,
+                "I:DecreasePerOperationAmount": 5,
+                "I:MaxAmount": 350,
+                "I:MinAmount": 0,
+                "S:Registry": "gas_natural_gas"
+            },
+            "liquid_light_oil": {
+                "I:Chance": 20,
+                "I:DecreasePerOperationAmount": 5,
+                "I:MaxAmount": 625,
+                "I:MinAmount": 0,
+                "S:Registry": "liquid_light_oil"
+            },
+            "liquid_medium_oil": {
+                "I:Chance": 20,
+                "I:DecreasePerOperationAmount": 5,
+                "I:MaxAmount": 625,
+                "I:MinAmount": 0,
+                "S:Registry": "liquid_medium_oil"
+            },
+            "liquid_heavy_oil": {
+                "I:Chance": 20,
+                "I:DecreasePerOperationAmount": 5,
+                "I:MaxAmount": 625,
+                "I:MinAmount": 0,
+                "S:Registry": "liquid_heavy_oil"
+            },
+            "oil": {
+                "I:Chance": 20,
+                "I:DecreasePerOperationAmount": 5,
+                "I:MaxAmount": 625,
+                "I:MinAmount": 0,
+                "S:Registry": "oil"
+            }
+        },
+        "moon": {
+            "S:Dimension": "Moon",
+            "helium-3": {
+                "I:Chance": 100,
+                "I:DecreasePerOperationAmount": 5,
+                "I:MaxAmount": 425,
+                "I:MinAmount": 0,
+                "S:Registry": "helium-3"
+            },
+            "saltwater": {
+                "I:Chance": 20,
+                "I:DecreasePerOperationAmount": 5,
+                "I:MaxAmount": 200,
+                "I:MinAmount": 0,
+                "S:Registry": "saltwater"
+            }
+        },
+        "mercury": {
+            "S:Dimension": "Mercury",
+            "helium-3": {
+                "I:Chance": 100,
+                "I:DecreasePerOperationAmount": 5,
+                "I:MaxAmount": 800,
+                "I:MinAmount": 0,
+                "S:Registry": "helium-3"
+            },
+            "molten_iron": {
+                "I:Chance": 30,
+                "I:DecreasePerOperationAmount": 5,
+                "I:MaxAmount": 400,
+                "I:MinAmount": 0,
+                "S:Registry": "molten.iron"
+            }
+        },
+        "venus": {
+            "S:Dimension": "Venus",
+            "molten_lead": {
+                "I:Chance": 100,
+                "I:DecreasePerOperationAmount": 5,
+                "I:MaxAmount": 1600,
+                "I:MinAmount": 0,
+                "S:Registry": "molten.lead"
+            },
+            "sulfuric_acid": {
+                "I:Chance": 100,
+                "I:DecreasePerOperationAmount": 5,
+                "I:MaxAmount": 250,
+                "I:MinAmount": 0,
+                "S:Registry": "sulfuricacid"
+            },
+            "carbon_dioxide": {
+                "I:Chance": 100,
+                "I:DecreasePerOperationAmount": 5,
+                "I:MaxAmount": 1500,
+                "I:MinAmount": 0,
+                "S:Registry": "carbondioxide"
+            }
+        },
+        "mars": {
+            "S:Dimension": "Mars",
+            "saltwater": {
+                "I:Chance": 100,
+                "I:DecreasePerOperationAmount": 5,
+                "I:MaxAmount": 400,
+                "I:MinAmount": 0,
+                "S:Registry": "saltwater"
+            },
+            "chlorobenzene": {
+                "I:Chance": 100,
+                "I:DecreasePerOperationAmount": 5,
+                "I:MaxAmount": 400,
+                "I:MinAmount": 0,
+                "S:Registry": "chlorobenzene"
+            }
+        },
+        "io": {
+            "S:Dimension": "Io",
+            "molten_lead": {
+                "I:Chance": 20,
+                "I:DecreasePerOperationAmount": 5,
+                "I:MaxAmount": 650,
+                "I:MinAmount": 0,
+                "S:Registry": "molten.lead"
+            },
+            "sulfuric_acid": {
+                "I:Chance": 80,
+                "I:DecreasePerOperationAmount": 5,
+                "I:MaxAmount": 350,
+                "I:MinAmount": 0,
+                "S:Registry": "sulfuricacid"
+            },
+            "carbon_dioxide": {
+                "I:Chance": 80,
+                "I:DecreasePerOperationAmount": 5,
+                "I:MaxAmount": 750,
+                "I:MinAmount": 0,
+                "S:Registry": "carbondioxide"
+            }
+        },
+        "europa": {
+            "S:Dimension": "Europa",
+            "saltwater": {
+                "I:Chance": 100,
+                "I:DecreasePerOperationAmount": 5,
+                "I:MaxAmount": 800,
+                "I:MinAmount": 0,
+                "S:Registry": "saltwater"
+            },
+            "veryheavyoil": {
+                "I:Chance": 20,
+                "I:DecreasePerOperationAmount": 5,
+                "I:MaxAmount": 200,
+                "I:MinAmount": 0,
+                "S:Registry": "liquid_extra_heavy_oil"
+            },
+            "distilled_water": {
+                "I:Chance": 80,
+                "I:DecreasePerOperationAmount": 5,
+                "I:MaxAmount": 3500,
+                "I:MinAmount": 0,
+                "S:Registry": "ic2distilledwater"
+            }
+        },
+        "callisto": {
+            "S:Dimension": "Callisto",
+            "oxygen": {
+                "I:Chance": 100,
+                "I:DecreasePerOperationAmount": 5,
+                "I:MaxAmount": 200,
+                "I:MinAmount": 0,
+                "S:Registry": "oxygen"
+            },
+            "liquid_air": {
+                "I:Chance": 100,
+                "I:DecreasePerOperationAmount": 5,
+                "I:MaxAmount": 200,
+                "I:MinAmount": 2,
+                "S:Registry": "liquidair"
+            }
+        },
+        "titan": {
+            "S:Dimension": "Titan",
+            "methane": {
+                "I:Chance": 100,
+                "I:DecreasePerOperationAmount": 5,
+                "I:MaxAmount": 800,
+                "I:MinAmount": 0,
+                "S:Registry": "methane"
+            },
+            "ethane": {
+                "I:Chance": 100,
+                "I:DecreasePerOperationAmount": 5,
+                "I:MaxAmount": 200,
+                "I:MinAmount": 0,
+                "S:Registry": "ethane"
+            }
+        },
+        "miranda": {
+            "S:Dimension": "Miranda",
+            "hydrogen_sulfide": {
+                "I:Chance": 100,
+                "I:DecreasePerOperationAmount": 5,
+                "I:MaxAmount": 900,
+                "I:MinAmount": 0,
+                "S:Registry": "liquid_hydricsulfur"
+            }
+        },
+        "oberon": {
+            "S:Dimension": "Oberon",
+            "carbon_monoxide": {
+                "I:Chance": 100,
+                "I:DecreasePerOperationAmount": 5,
+                "I:MaxAmount": 2000,
+                "I:MinAmount": 0,
+                "S:Registry": "carbonmonoxide"
+            }
+        },
+        "triton": {
+            "S:Dimension": "Triton",
+            "nitrogen": {
+                "I:Chance": 100,
+                "I:DecreasePerOperationAmount": 5,
+                "I:MaxAmount": 800,
+                "I:MinAmount": 0,
+                "S:Registry": "nitrogen"
+            },
+            "ethylene": {
+                "I:Chance": 100,
+                "I:DecreasePerOperationAmount": 5,
+                "I:MaxAmount": 800,
+                "I:MinAmount": 0,
+                "S:Registry": "ethylene"
+            }
+        },
+        "proteus": {
+            "S:Dimension": "Proteus",
+            "deuterium": {
+                "I:Chance": 100,
+                "I:DecreasePerOperationAmount": 5,
+                "I:MaxAmount": 700,
+                "I:MinAmount": 0,
+                "S:Registry": "deuterium"
+            }
+        },
+        "pluto": {
+            "S:Dimension": "Pluto",
+            "nitrogen": {
+                "I:Chance": 100,
+                "I:DecreasePerOperationAmount": 5,
+                "I:MaxAmount": 800,
+                "I:MinAmount": 0,
+                "S:Registry": "nitrogen"
+            },
+            "oxygen": {
+                "I:Chance": 100,
+                "I:DecreasePerOperationAmount": 5,
+                "I:MaxAmount": 800,
+                "I:MinAmount": 0,
+                "S:Registry": "oxygen"
+            },
+            "liquid_air": {
+                "I:Chance": 40,
+                "I:DecreasePerOperationAmount": 5,
+                "I:MaxAmount": 300,
+                "I:MinAmount": 4,
+                "S:Registry": "liquidair"
+            },
+            "fluorine": {
+                "I:Chance": 80,
+                "I:DecreasePerOperationAmount": 5,
+                "I:MaxAmount": 800,
+                "I:MinAmount": 4,
+                "S:Registry": "fluorine"
+            }
+        },
+        "makemake": {
+            "S:Dimension": "Makemake",
+            "hydrofluoric_acid": {
+                "I:Chance": 80,
+                "I:DecreasePerOperationAmount": 5,
+                "I:MaxAmount": 300,
+                "I:MinAmount": 0,
+                "S:Registry": "hydrofluoricacid_gt5u"
+            }
+        },
+        "acentauribb": {
+            "S:Dimension": "aCentauriBb",
+            "molten_copper": {
+                "I:Chance": 10,
+                "I:DecreasePerOperationAmount": 5,
+                "I:MaxAmount": 300,
+                "I:MinAmount": 0,
+                "S:Registry": "molten.copper"
+            }
+        },
+        "barnardc": {
+            "S:Dimension": "BarnardaC",
+            "veryheavyoil": {
+                "I:Chance": 100,
+                "I:DecreasePerOperationAmount": 5,
+                "I:MaxAmount": 800,
+                "I:MinAmount": 0,
+                "S:Registry": "liquid_extra_heavy_oil"
+            },
+            "unknowwater": {
+                "I:Chance": 100,
+                "I:DecreasePerOperationAmount": 5,
+                "I:MaxAmount": 300,
+                "I:MinAmount": 0,
+                "S:Registry": "unknowwater"
+            },
+            "distilled_water": {
+                "I:Chance": 100,
+                "I:DecreasePerOperationAmount": 5,
+                "I:MaxAmount": 8000,
+                "I:MinAmount": 0,
+                "S:Registry": "ic2distilledwater"
+            }
+        },
+        "barnarde": {
+            "S:Dimension": "BarnardaE",
+            "liquid_air": {
+                "I:Chance": 20,
+                "I:DecreasePerOperationAmount": 5,
+                "I:MaxAmount": 400,
+                "I:MinAmount": 0,
+                "S:Registry": "liquidair"
+            }
+        },
+        "barnardf": {
+            "S:Dimension": "BarnardaF",
+            "molten_tin": {
+                "I:Chance": 15,
+                "I:DecreasePerOperationAmount": 5,
+                "I:MaxAmount": 400,
+                "I:MinAmount": 0,
+                "S:Registry": "molten.tin"
+            }
+        },
+        "TCetiE": {
+            "S:Dimension": "TCetiE",
+            "veryheavyoil": {
+                "I:Chance": 100,
+                "I:DecreasePerOperationAmount": 5,
+                "I:MaxAmount": 200,
+                "I:MinAmount": 0,
+                "S:Registry": "liquid_extra_heavy_oil"
+            },
+            "hydrogen": {
+                "I:Chance": 50,
+                "I:DecreasePerOperationAmount": 5,
+                "I:MaxAmount": 700,
+                "I:MinAmount": 0,
+                "S:Registry": "hydrogen"
+            },
+            "distilled_water": {
+                "I:Chance": 100,
+                "I:DecreasePerOperationAmount": 5,
+                "I:MaxAmount": 10000,
+                "I:MinAmount": 0,
+                "S:Registry": "ic2distilledwater"
+            }
+        },
+        "default": {},
+        "ross128b": {
+            "S:Dimension": "Ross128b",
+            "veryheavyoil": {
+                "I:Chance": 40,
+                "I:DecreasePerOperationAmount": 5,
+                "I:MaxAmount": 625,
+                "I:MinAmount": 0,
+                "S:Registry": "liquid_extra_heavy_oil"
+            },
+            "lava": {
+                "I:Chance": 5,
+                "I:DecreasePerOperationAmount": 5,
+                "I:MaxAmount": 820,
+                "I:MinAmount": 0,
+                "S:Registry": "lava"
+            },
+            "gas_natural_gas": {
+                "I:Chance": 65,
+                "I:DecreasePerOperationAmount": 5,
+                "I:MaxAmount": 625,
+                "I:MinAmount": 0,
+                "S:Registry": "gas_natural_gas"
+            },
+            "distilled_water": {
+                "I:Chance": 100,
+                "I:DecreasePerOperationAmount": 5,
+                "I:MaxAmount": 5000,
+                "I:MinAmount": 0,
+                "S:Registry": "ic2distilledwater"
+            }
+        },
+        "ross128ba": {
+            "S:Dimension": "Ross128ba",
+            "saltwater": {
+                "I:Chance": 40,
+                "I:DecreasePerOperationAmount": 5,
+                "I:MaxAmount": 1250,
+                "I:MinAmount": 0,
+                "S:Registry": "saltwater"
+            },
+            "helium-3": {
+                "I:Chance": 60,
+                "I:DecreasePerOperationAmount": 5,
+                "I:MaxAmount": 1250,
+                "I:MinAmount": 0,
+                "S:Registry": "helium-3"
+            }
+        }
+    }
+}
